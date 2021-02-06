@@ -36,26 +36,3 @@ for article in soup.find_all('article'):
     print()
     csv_writer.writerow([headline, summary, yt_link])
 csv_file.close() 
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
